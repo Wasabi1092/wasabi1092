@@ -46,7 +46,7 @@ function loadGroup(index) {
           document.getElementById("group-container").innerHTML = ""
           var table = ""
           for (let i = 0; i < talisman.groups.length; i++) {
-            table = `<div class="group-table-container">
+            table = `<div class="group-table-container" onclick="updateSkills()">
             <table>
               <thead>
                 <tr>
@@ -64,7 +64,7 @@ function loadGroup(index) {
             for (let j = 0; j < groups[talisman.groups[i]].length; j++) {
               table += `
               <tr>
-                <td><input type="radio" name="skill-group-${i + 1}"></td>
+                <td><input type="radio" name="skill-group-${i + 1}" value="${groups[talisman.groups[i]][j].skill} ${groups[talisman.groups[i]][j].level}"></td>
                 <td>${groups[talisman.groups[i]][j].skill}</td>
                 <td>${groups[talisman.groups[i]][j].level}</td>
               </tr>
@@ -79,6 +79,64 @@ function loadGroup(index) {
     }
   )
 
+}
+
+function updateSkills() {
+  var group1 = document.getElementsByName("skill-group-1")
+  var group2 = document.getElementsByName("skill-group-2")
+  var group3 = document.getElementsByName("skill-group-3")
+  fetch("./talismans/talismans.json").then(response => response.json()).then(
+    talismans => {
+      var rarity = document.getElementById("rarity").value
+      var arr = talismans[rarity]
+      var index;
+      var selectors = document.getElementsByName("talisman")
+      for (let i = 0; i < selectors.length; i++) {
+        if (selectors[i].checked) {
+          index = i
+          break
+        }
+      }
+      let obj;
+      document.getElementById("image-containers").innerHTML = ""
+      for (let i = 0; i < arr[index].slots.length; i++) {
+        obj = `<div class="image-container">`
+        for (let j = 0; j < arr[index].slots[i].length; j++) {
+          if (arr[index].slots[i][j] == "W1") {
+            obj += `<img src="/images/${arr[index].slots[i][j]}.png" alt="weapon-1">`
+          } else if (arr[index].slots[i][j] != 0) {
+            obj += `<img src="/images/a${arr[index].slots[i][j]}.png" alt="armor-${arr[index].slots[i][j]}">`
+          }
+        }
+        obj += `</div>`
+        document.getElementById("image-containers").innerHTML += obj
+      }
+
+      document.getElementById("list").innerHTML = ""
+      let skills = []
+      for (let i = 0; i < group1.length; i++) {
+        if (group1[i].checked) {
+          skills.push(group1[i].value)
+          break
+        }
+      }
+      for (let i = 0; i < group2.length; i++) {
+        if (group2[i].checked) {
+          skills.push(group2[i].value)
+          break
+        }
+      }
+      for (let i = 0; i < group3.length; i++) {
+        if (group3[i].checked) {
+          skills.push(group3[i].value)
+          break
+        }
+      }
+      for (let i = 0; i < skills.length; i++) {
+        document.getElementById("list").innerHTML += `<li>${skills[i]}</li>`
+      }
+    }
+  )
 }
 
 window.onload = loadTalismans()

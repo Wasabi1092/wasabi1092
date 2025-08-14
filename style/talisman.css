@@ -11,13 +11,45 @@ h1 {
   font-size: 40px;
 }
 
+h2,
+h3 {
+  text-align: center;
+}
+
 p {
   text-align: center;
   font-size: 16px;
 }
 
+#image-containers {
+  width: 100%;
+  display: flex;
+}
+
+.image-container {
+  width: 20%;
+  margin: auto;
+}
+
+.image-container img {
+  height: 70px;
+  margin: auto;
+  display: block;
+}
+
+li {
+  font-size: 24px;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
 hr {
   margin: 2em 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .select-container {
@@ -40,7 +72,7 @@ hr {
 
 .table-container table {
   margin: auto;
-  width: 50%;
+  width: 90%;
   background-color: #ffffff;
   border-collapse: collapse;
 }

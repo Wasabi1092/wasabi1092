@@ -19,54 +19,103 @@
     Images from FextraLife
   </p>
   <hr>
-  <div class="select-container">
-    <label for="rarity">Select Rarity:</label>
-    <select name="rarity" id="rarity" onchange="loadTalismans()">
-      <option value="5">Rarity 5</option>
-      <option value="6">Rarity 6</option>
-      <option value="7">Rarity 7</option>
-      <option value="8">Rarity 8</option>
-    </select>
+  <div class="grid-container">
+    <div>
+      <div class="select-container">
+        <label for="rarity">Select Rarity:</label>
+        <select name="rarity" id="rarity" onchange="loadTalismans()">
+          <option value="5">Rarity 5</option>
+          <option value="6">Rarity 6</option>
+          <option value="7">Rarity 7</option>
+          <option value="8">Rarity 8</option>
+        </select>
+      </div>
+      <div class="table-container" onclick="updateSkills()">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Skill Group 1</th>
+              <th>Skill Group 2</th>
+              <th>Skill Group 3</th>
+              <th>Possible Slots 1</th>
+              <th>Possible Slots 2</th>
+              <th>Possible Slots 3</th>
+              <th>Possible Slots 4</th>
+            </tr>
+          </thead>
+          <tbody id="talismans-table">
+            <tr>
+              <td><input type="radio" name="talisman" value="0"></td>
+              <td>Group 1</td>
+              <td>Group 6</td>
+              <td>Group 6</td>
+              <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
+              <td><img src="/images/a2.png" alt="armor-2"></td>
+              <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
+              <td><img src="/images/a3.png" alt="armor-3"></td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="talisman" value="1"></td>
+              <td>Group 1</td>
+              <td>Group 7</td>
+              <td>-</td>
+              <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
+              <td><img src="/images/a2.png" alt="armor-2"></td>
+              <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
+              <td><img src="/images/a3.png" alt="armor-3"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h2>Results</h2>
+      <hr>
+      <div class="grid-container">
+        <div>
+          <h2>Skills</h2>
+          <ul id="list">
+            <li>Weakness Exploit 1</li>
+            <li>Agitator 1</li>
+            <li>Adrenaline Rush 1</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Possible Slots</h2>
+          <div id="image-containers">
+            <div class="image-container">
+              <img src="/images/w1.png" alt="weapon-1">
+              <img src="/images/a1.png" alt="armor-1">
+              <img src="/images/a1.png" alt="armor-1">
+            </div>
+            <div class="image-container">
+              <img src="/images/w1.png" alt="weapon-1">
+              <img src="/images/a1.png" alt="armor-1">
+              <img src="/images/a1.png" alt="armor-1">
+            </div>
+            <div class="image-container">
+              <img src="/images/w1.png" alt="weapon-1">
+              <img src="/images/a1.png" alt="armor-1">
+              <img src="/images/a1.png" alt="armor-1">
+            </div>
+            <div class="image-container">
+              <img src="/images/w1.png" alt="weapon-1">
+              <img src="/images/a1.png" alt="armor-1">
+              <img src="/images/a1.png" alt="armor-1">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
   </div>
-  <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Skill Group 1</th>
-          <th>Skill Group 2</th>
-          <th>Skill Group 3</th>
-          <th>Possible Slots 1</th>
-          <th>Possible Slots 2</th>
-          <th>Possible Slots 3</th>
-          <th>Possible Slots 4</th>
-        </tr>
-      </thead>
-      <tbody id="talismans-table">
-        <tr>
-          <td><input type="radio" name="talisman" value="0"></td>
-          <td>Group 1</td>
-          <td>Group 6</td>
-          <td>Group 6</td>
-          <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
-          <td><img src="/images/a2.png" alt="armor-2"></td>
-          <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
-          <td><img src="/images/a3.png" alt="armor-3"></td>
-        </tr>
-        <tr>
-          <td><input type="radio" name="talisman" value="1"></td>
-          <td>Group 1</td>
-          <td>Group 7</td>
-          <td>-</td>
-          <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
-          <td><img src="/images/a2.png" alt="armor-2"></td>
-          <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
-          <td><img src="/images/a3.png" alt="armor-3"></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+
+
   <hr>
+  <h2 style="text-align: center">Select Skills</h2>
   <div id="group-container">
     <div class="group-table-container">
       <table>
@@ -81,21 +130,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Weakness Exploit</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Agitator</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Counterstrike</td>
-            <td>1</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -112,21 +146,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Weakness Exploit</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Agitator</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Counterstrike</td>
-            <td>1</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -143,21 +162,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Weakness Exploit</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Agitator</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><input type="radio" name="skill-group-1"></td>
-            <td>Counterstrike</td>
-            <td>1</td>
-          </tr>
         </tbody>
       </table>
     </div>
