@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MHWilds Talisman Tool</title>
+  <script src="scripts/talismans.js"></script>
+  <link rel="stylesheet" href="style/talisman.css">
 </head>
 
 <body>
@@ -13,17 +15,154 @@
     Data mined by Dtlnor<br>
     Link to original spreadsheet: <a
       href="https://docs.google.com/spreadsheets/u/0/d/1fpkamu1VzEpX8dZqecygW1GflKyvdY2975Y0d9SUt04/htmlview#gid=0">here</a>
+    <br>
+    Images from FextraLife
   </p>
-
-  <label for="rarity">Select Rarity:</label>
-  <select name="rarity" id="rarity">
-    <option value="5">Rarity 5</option>
-    <option value="6">Rarity 6</option>
-    <option value="7">Rarity 7</option>
-    <option value="8">Rarity 8</option>
-  </select>
+  <hr>
+  <div class="select-container">
+    <label for="rarity">Select Rarity:</label>
+    <select name="rarity" id="rarity" onchange="loadTalismans()">
+      <option value="5">Rarity 5</option>
+      <option value="6">Rarity 6</option>
+      <option value="7">Rarity 7</option>
+      <option value="8">Rarity 8</option>
+    </select>
+  </div>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Skill Group 1</th>
+          <th>Skill Group 2</th>
+          <th>Skill Group 3</th>
+          <th>Possible Slots 1</th>
+          <th>Possible Slots 2</th>
+          <th>Possible Slots 3</th>
+          <th>Possible Slots 4</th>
+        </tr>
+      </thead>
+      <tbody id="talismans-table">
+        <tr>
+          <td><input type="radio" name="talisman" value="0"></td>
+          <td>Group 1</td>
+          <td>Group 6</td>
+          <td>Group 6</td>
+          <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
+          <td><img src="/images/a2.png" alt="armor-2"></td>
+          <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
+          <td><img src="/images/a3.png" alt="armor-3"></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="talisman" value="1"></td>
+          <td>Group 1</td>
+          <td>Group 7</td>
+          <td>-</td>
+          <td><img src="/images/a1.png" alt="armor-1"><img src="/images/a1.png" alt="armor-1"></td>
+          <td><img src="/images/a2.png" alt="armor-2"></td>
+          <td><img src="/images/a2.png" alt="armor-2"><img src="/images/a1.png" alt="armor-1"></td>
+          <td><img src="/images/a3.png" alt="armor-3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <div id="group-container">
+    <div class="group-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Skill Group 1</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Weakness Exploit</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Agitator</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Counterstrike</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="group-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Skill Group 1</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Weakness Exploit</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Agitator</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Counterstrike</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="group-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Skill Group 1</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Weakness Exploit</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Agitator</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="skill-group-1"></td>
+            <td>Counterstrike</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
   <br>
-  <script src="scripts/talismans.js"></script>
 </body>
 
 </html>
