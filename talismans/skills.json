@@ -1,0 +1,1378 @@
+{
+  "Adaptability": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    }
+  ],
+  "Adrenaline Rush": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Agitator": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Airborne": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Ambush": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Antivirus": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Aquatic/Oilsilt Mobility": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    }
+  ],
+  "Artillery": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Attack Boost": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Ballistics": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Bind Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Blast Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Blast Functionality": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Blast Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Bleeding Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Blight Resistance": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Bludgeoner": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Bombardier": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Botanist": [
+    {
+      "group": "5",
+      "level": "2"
+    },
+    {
+      "group": "6",
+      "level": "3"
+    },
+    {
+      "group": "7",
+      "level": "4"
+    }
+  ],
+  "Burst": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Charge Master": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Charge Up": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Coalescence": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Constitution": [
+    {
+      "group": "5",
+      "level": "2"
+    },
+    {
+      "group": "6",
+      "level": "3"
+    },
+    {
+      "group": "7",
+      "level": "4"
+    }
+  ],
+  "Convert Element": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Counterstrike": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Critical Boost": [
+    {
+      "group": "4",
+      "level": "1"
+    }
+  ],
+  "Critical Draw": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Critical Element": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Critical Eye": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Critical Status": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Defense Boost": [
+    {
+      "group": "5",
+      "level": "2"
+    },
+    {
+      "group": "6",
+      "level": "3"
+    },
+    {
+      "group": "7",
+      "level": "4"
+    }
+  ],
+  "Divine Blessing": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Dragon Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Dragon Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Earplugs": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Elemental Absorption": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Evade Extender": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Evade Window": [
+    {
+      "group": "8",
+      "level": "2"
+    },
+    {
+      "group": "9",
+      "level": "3"
+    }
+  ],
+  "Exhaust Functionality": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Fire Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Fire Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Flayer": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Flinch Free": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Focus": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Foray": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Free Meal": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Geologist": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Guard": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Guard Up": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Handicraft": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Heroics": [
+    {
+      "group": "8",
+      "level": "2"
+    },
+    {
+      "group": "9",
+      "level": "3"
+    }
+  ],
+  "Horn Maestro": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    }
+  ],
+  "Hunger Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Ice Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Ice Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Intimidator": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Iron Skin": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Item Prolonger": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Latent Power": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Load Shells": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    }
+  ],
+  "Marathon Runner": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Master's Touch": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Maximum Might": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Mind's Eye": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Mushroomancer": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Normal Shots": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Offensive Guard": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Opening Shot": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Para Functionality": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Paralysis Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Paralysis Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Partbreaker": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Peak Performance": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Piercing Shots": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Poison Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Poison Duration Up": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Poison Functionality": [
+    {
+      "group": "2",
+      "level": "1"
+    }
+  ],
+  "Poison Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Power Prolonger": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Protective Polish": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Punishing Draw": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Quick Sheathe": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Rapid Fire Up": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Rapid Morph": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Razor Sharp": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Recovery Speed": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Recovery Up": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Resentment": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Sleep Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Sleep Functionality": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Sleep Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Slugger": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Special Ammo Boost": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    }
+  ],
+  "Speed Eating": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Speed Sharpening": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    }
+  ],
+  "Spread/Power Shots": [
+    {
+      "group": "3",
+      "level": "1"
+    }
+  ],
+  "Stamina Surge": [
+    {
+      "group": "8",
+      "level": "1"
+    },
+    {
+      "group": "9",
+      "level": "2"
+    }
+  ],
+  "Stamina Thief": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Stench Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    }
+  ],
+  "Stun Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Survival Expert": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Tetrad Shot": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Thunder Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Thunder Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Tool Specialist": [
+    {
+      "group": "8",
+      "level": "2"
+    },
+    {
+      "group": "9",
+      "level": "3"
+    }
+  ],
+  "Tremor Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Water Attack": [
+    {
+      "group": "1",
+      "level": "1"
+    },
+    {
+      "group": "2",
+      "level": "2"
+    },
+    {
+      "group": "4",
+      "level": "2"
+    },
+    {
+      "group": "3",
+      "level": "3"
+    }
+  ],
+  "Water Resistance": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ],
+  "Weakness Exploit": [
+    {
+      "group": "10",
+      "level": "1"
+    }
+  ],
+  "Wide-Range": [
+    {
+      "group": "5",
+      "level": "2"
+    },
+    {
+      "group": "6",
+      "level": "3"
+    },
+    {
+      "group": "7",
+      "level": "4"
+    }
+  ],
+  "Windproof": [
+    {
+      "group": "5",
+      "level": "1"
+    },
+    {
+      "group": "6",
+      "level": "2"
+    },
+    {
+      "group": "7",
+      "level": "3"
+    }
+  ]
+}
