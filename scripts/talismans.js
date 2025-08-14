@@ -17,9 +17,9 @@ function loadTalismans() {
           row += "<td>"
           for (let k = 0; k < arr[i].slots[j].length; k++) {
             if (arr[i].slots[j][k] == "W1") {
-              row += `<img src="./images/${arr[i].slots[j][k]}.png" alt="weapon-1">`
+              row += `<img src="images/${arr[i].slots[j][k]}.png" alt="weapon-1">`
             } else if (arr[i].slots[j][k] != 0) {
-              row += `<img src="./images/a${arr[i].slots[j][k]}.png" alt="armor-${arr[i].slots[j][k]}">`
+              row += `<img src="images/a${arr[i].slots[j][k]}.png" alt="armor-${arr[i].slots[j][k]}">`
             }
           }
           row += "</td>"
@@ -103,9 +103,9 @@ function updateSkills() {
         obj = `<div class="image-container">`
         for (let j = 0; j < arr[index].slots[i].length; j++) {
           if (arr[index].slots[i][j] == "W1") {
-            obj += `<img src="./images/${arr[index].slots[i][j]}.png" alt="weapon-1">`
+            obj += `<img src="images/${arr[index].slots[i][j]}.png" alt="weapon-1">`
           } else if (arr[index].slots[i][j] != 0) {
-            obj += `<img src="./images/a${arr[index].slots[i][j]}.png" alt="armor-${arr[index].slots[i][j]}">`
+            obj += `<img src="images/a${arr[index].slots[i][j]}.png" alt="armor-${arr[index].slots[i][j]}">`
           }
         }
         obj += `</div>`
